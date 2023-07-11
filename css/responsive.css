@@ -406,8 +406,8 @@
 
 @media only screen and (min-width: 320px) and (max-width:446px) {
   .hero.video-hero .video-container iframe {
-    width: 670%;
-    height: 650%;
+    width: 670vw;
+    height: 650vh;
 
   }
 
