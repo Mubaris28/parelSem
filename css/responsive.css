@@ -262,8 +262,8 @@
   }
 
   .hero.video-hero .video-container iframe {
-    width: 400%;
-    height: 100%;
+    width: 416%;
+    height: 119%;
   }
 
   .hero.video-hero {
@@ -398,7 +398,7 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1350px) {
   .hero.video-hero .video-container iframe {
-    width: 190%;
+    width: 225%;
     height: 130%;
   }
 
@@ -406,8 +406,8 @@
 
 @media only screen and (min-width: 320px) and (max-width:446px) {
   .hero.video-hero .video-container iframe {
-    width: 650vw;
-    height: 650vh;
+    width: 670%;
+    height: 650%;
 
   }
 
