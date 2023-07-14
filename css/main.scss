@@ -72,7 +72,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -333,6 +333,7 @@ header {
   align-items: center;
   position: relative;
 
+
   &::before {
     content: "";
     position: absolute;
@@ -343,6 +344,7 @@ header {
     width: 100%;
     height: 100%;
     opacity: 1;
+
   }
 
   .wrapper {
@@ -352,6 +354,7 @@ header {
     padding-top: 200px;
     position: relative;
     padding-bottom: 220px;
+    
 
 
     .hero-left {
@@ -361,6 +364,7 @@ header {
       }
 
       p {
+        font-size: 3.6;
         color: $text;
         margin-bottom: 30px;
       }
@@ -384,7 +388,6 @@ header {
         box-shadow: 0 0 20px 5px #00000033;
 
         h3 {
-          font-size: 2rem;
           text-align: center;
         }
 
@@ -423,8 +426,8 @@ header {
           width: 100%;
           height: 100%;
           opacity: 0.7;
-
-        }
+          background: linear-gradient(180deg, #020024 0%, #000000c9 0%, rgba(0, 0, 0, 0) 100%);
+        } 
     
         &.video-hero {
           height: 115vh;
@@ -576,10 +579,9 @@ header {
             margin: 0 auto;
             object-fit: contain;
             padding: 0 30px;
-            filter: grayscale(100%) contrast(0.3);
             @include transitions;
             &:hover {
-              filter: grayscale(0%) contrast(1);
+              transform: scale(1.15);
             }
           }
         }

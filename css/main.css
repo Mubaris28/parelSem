@@ -50,7 +50,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -303,6 +303,7 @@ header.scrolled .wrapper .nav-section .top-bar {
   margin-bottom: 30px;
 }
 .hero .wrapper .hero-left p {
+  font-size: 3.6;
   color: #e7e7e7;
   margin-bottom: 30px;
 }
@@ -322,7 +323,6 @@ header.scrolled .wrapper .nav-section .top-bar {
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
 }
 .hero .wrapper .hero-right .form-container h3 {
-  font-size: 2rem;
   text-align: center;
 }
 .hero .wrapper .hero-right .form-container form .form-group {
@@ -348,6 +348,7 @@ header.scrolled .wrapper .nav-section .top-bar {
   width: 100%;
   height: 100%;
   opacity: 0.7;
+  background: linear-gradient(180deg, #020024 0%, rgba(0, 0, 0, 0.7882352941) 0%, rgba(0, 0, 0, 0) 100%);
 }
 .hero.video-hero {
   height: 115vh;
@@ -477,11 +478,10 @@ header.scrolled .wrapper .nav-section .top-bar {
   -o-object-fit: contain;
      object-fit: contain;
   padding: 0 30px;
-  filter: grayscale(100%) contrast(0.3);
   transition: all 0.3s ease;
 }
 .clients .wrapper .clients-box .client-slider .logo img:hover {
-  filter: grayscale(0%) contrast(1);
+  transform: scale(1.15);
 }
 
 .cta-banner {
